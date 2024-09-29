@@ -33,7 +33,18 @@ int main(){
     // }
     // Example 2 End
 
-    // Example 3 Start
+    // Example 3 Start Given Charactter is vowel or consonant 
+
+    char letter;
     
+    cout << "Enter the Chracter: ";
+    cin >> letter;
+
+    if(letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u'){
+        cout << "Vowel";
+    }
+    else{
+        cout << "Consonant";
+    }
     // Example 3 End
 }
